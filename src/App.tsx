@@ -2,24 +2,26 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+function Button() {
+  return (
+    
+    <button>
+      why
+    </button>
+  );
+}
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <body style={{background: "blue"}}>
+      <h1>Below me is a button</h1>
+      {/* When you reference functions in react, you don't put the () next to the function,
+       you just say the name followed by a space and a / */}
+       <div className='ButtonStyle'>
+        <Button />
+       </div>
+    </body>
   );
 }
 

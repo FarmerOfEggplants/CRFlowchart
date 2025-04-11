@@ -6,13 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.ButtonStyle {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 20vh;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.Backround {
+  background-color: rgb(57, 57, 57);
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

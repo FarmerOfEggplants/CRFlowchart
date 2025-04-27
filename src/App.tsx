@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import EventButton from './components/eventButton';
-import {FlowArrow, ConnectArrow} from './components/connectArrow';
+import { ConnectArrow } from './components/connectArrow';
+import { FlowArrow } from './components/flowArrow';
 import BlackPanthers from "./images/BlackPanthers.webp"
 import WWII from "./images/WWII.png"
 import BrownVsBoard from './images/BrownVsBoard.png'

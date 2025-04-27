@@ -20,12 +20,13 @@ type connectArrowProps = {
     text: string;
 }
 export function FlowArrow({svgX,svgY,x1,y1,x2,y2} : flowArrowProps) {
+    return (
     <svg width={svgX} height={svgY}>
         <defs>
             <marker
                 id="arrowhead"
-                markerWidth={10}
-                markerHeight={7}
+                markerWidth={100}
+                markerHeight={100}
                 refX={0}
                 refY={3.5}
                 orient="auto"
@@ -43,26 +44,28 @@ export function FlowArrow({svgX,svgY,x1,y1,x2,y2} : flowArrowProps) {
             markerEnd="url(#arrowhead)"
   />
     </svg>
-}
+)}
 export function ConnectArrow({svgX,svgY,x1,y1,x2,y2,text,boxWidth} : connectArrowProps) {
-    const [showing, notShowing] = useState(false);
+    const [showing, notShowing] = useState(true);
 
     const handleClick = () => {
         notShowing(prev => !prev);
     }
     return (
     <div>
-    <svg width="200" height="200">
+    <svg onClick={handleClick} width={svgX} height={svgY} style={{zIndex: 6}}>
+        
         <defs>
             <marker
                 id="arrowhead"
-                markerWidth={10}
-                markerHeight={7}
+                markerWidth={100}
+                markerHeight={100}
                 refX={0}
                 refY={3.5}
                 orient="auto"
+                fill="#ff1900"
             >
-                <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+                <polygon points="0 0, 10 3.5, 0 7" fill="#ff1900"/>
             </marker>
         </defs>
         <line
@@ -70,19 +73,19 @@ export function ConnectArrow({svgX,svgY,x1,y1,x2,y2,text,boxWidth} : connectArro
             y1={y1}
             x2={x2}
             y2={y2}
-            stroke="red"
-            strokeWidth="2"
+            stroke="#ff1900"
+            strokeWidth={4}
             markerEnd="url(#arrowhead)"
-            onClick={handleClick}/>
+            />
         
         
         
     </svg>
     {showing && (
-        <body style={{width: boxWidth, padding: "4px", backgroundColor: "white"}}>
+        <div style={{width: boxWidth, padding: "4px", backgroundColor: "white"}}>
             {text}
 
-        </body>
+        </div>
     )}
     </div>
     );

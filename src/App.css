@@ -13,6 +13,7 @@
   justify-content: center;
   flex-direction: column;
   min-height: 20vh;
+  position: relative;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -33,7 +33,7 @@ export default function EventButton({name, paragraph, year, definition, bwidth, 
     return (
         <div>
             <button
-                style={{width: bwidth, padding: "5px", position: 'absolute', border: '3px solid black', backgroundColor: hover ? color2 : colorHover, left: positionX, fontSize: 25, }}
+                style={{width: bwidth, padding: "5px", position: 'absolute', alignItems: "inherit", justifyContent: "inherit", border: '3px solid black', backgroundColor: hover ? color2 : colorHover, left: positionX,  top: positionY, fontSize: 25, }}
                 onClick={handleClick}
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
@@ -45,11 +45,12 @@ export default function EventButton({name, paragraph, year, definition, bwidth, 
             {name}
             </button>
             {showing && (
-                <div style={{width: boxwidth, padding: "10px", position: "relative", background : color, border: '3px solid black', left: positionX}}>
-                    <img src={imagesrc} alt={imagealt} style={{width: imageSizeX, height:  imageSizeY}}/>
+                <div onClick={handleClick} style={{width: boxwidth, padding: "10px", position: "absolute", alignItems: "inherit", justifyContent: "inherit", background : color, border: '3px solid black', left: positionX, top: positionY, zIndex: 5 }}>
+                    <img src={imagesrc} alt={imagealt} style={{width: imageSizeX, height:  imageSizeY,}}/>
                     <h2 style={{fontSize: 10, display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
                         {definition}
                     </h2>
+                    
                     <h3 style={{fontSize: 8, textAlign: "left"}}>
                         
                         {fact1 } <br/>

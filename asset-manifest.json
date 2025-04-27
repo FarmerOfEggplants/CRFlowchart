@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/new-project/static/css/main.a5efa670.css",
-    "main.js": "/new-project/static/js/main.76b55162.js",
-    "static/js/453.b88efcb5.chunk.js": "/new-project/static/js/453.b88efcb5.chunk.js",
-    "static/media/BlackPanthers.webp": "/new-project/static/media/BlackPanthers.2f59a9699270e769b9db.webp",
-    "static/media/EmmetTill.png": "/new-project/static/media/EmmetTill.176e690657298375b7f1.png",
-    "static/media/BrownVsBoard.png": "/new-project/static/media/BrownVsBoard.505dbc88bfe507c65e02.png",
-    "static/media/rosaparks.png": "/new-project/static/media/rosaparks.700e95d2e870b9567a41.png",
-    "static/media/MLK.png": "/new-project/static/media/MLK.76883c8aa3b15a960984.png",
-    "static/media/WWII.png": "/new-project/static/media/WWII.47c60074ed70eeb8f620.png",
-    "static/media/MontgomeryBusBoycott.png": "/new-project/static/media/MontgomeryBusBoycott.31eca2be87600808f69c.png",
-    "index.html": "/new-project/index.html",
-    "main.a5efa670.css.map": "/new-project/static/css/main.a5efa670.css.map",
-    "main.76b55162.js.map": "/new-project/static/js/main.76b55162.js.map",
-    "453.b88efcb5.chunk.js.map": "/new-project/static/js/453.b88efcb5.chunk.js.map"
+    "main.css": "/CRFlowchart/static/css/main.a5efa670.css",
+    "main.js": "/CRFlowchart/static/js/main.a1ae6d43.js",
+    "static/js/453.b88efcb5.chunk.js": "/CRFlowchart/static/js/453.b88efcb5.chunk.js",
+    "static/media/BlackPanthers.webp": "/CRFlowchart/static/media/BlackPanthers.2f59a9699270e769b9db.webp",
+    "static/media/EmmetTill.png": "/CRFlowchart/static/media/EmmetTill.176e690657298375b7f1.png",
+    "static/media/BrownVsBoard.png": "/CRFlowchart/static/media/BrownVsBoard.505dbc88bfe507c65e02.png",
+    "static/media/rosaparks.png": "/CRFlowchart/static/media/rosaparks.700e95d2e870b9567a41.png",
+    "static/media/MLK.png": "/CRFlowchart/static/media/MLK.76883c8aa3b15a960984.png",
+    "static/media/WWII.png": "/CRFlowchart/static/media/WWII.47c60074ed70eeb8f620.png",
+    "static/media/MontgomeryBusBoycott.png": "/CRFlowchart/static/media/MontgomeryBusBoycott.31eca2be87600808f69c.png",
+    "index.html": "/CRFlowchart/index.html",
+    "main.a5efa670.css.map": "/CRFlowchart/static/css/main.a5efa670.css.map",
+    "main.a1ae6d43.js.map": "/CRFlowchart/static/js/main.a1ae6d43.js.map",
+    "453.b88efcb5.chunk.js.map": "/CRFlowchart/static/js/453.b88efcb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5efa670.css",
-    "static/js/main.76b55162.js"
+    "static/js/main.a1ae6d43.js"
   ]
 }

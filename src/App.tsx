@@ -153,16 +153,18 @@ function App() {
         x2='175'
         y2='360'
         />
-        <ConnectArrow
-        svgX='100'
-        svgY='100'
-        x1='200'
-        y1='200'
-        x2='600'
-        y2='600'
-        boxWidth={300}
-        text='ee'
-        />
+        <div style={{position: "absolute", top: 100, left: 400, padding: "10px"}}>
+          <ConnectArrow
+          svgX={400}
+          svgY={400}
+          x1={440}
+          y1={200}
+          x2={260}
+          y2={200}
+          boxWidth={300}
+          text='The Montgomery Bus Boycott was a direct result of the Rosa Parks case.'
+          />
+        </div>
         <EventButton 
           name="The Black Panthers" 
           year="1966" 

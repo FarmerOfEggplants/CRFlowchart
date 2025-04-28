@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRFlowchart/static/css/main.a5efa670.css",
-    "main.js": "/CRFlowchart/static/js/main.a1ae6d43.js",
+    "main.js": "/CRFlowchart/static/js/main.3f82a163.js",
     "static/js/453.b88efcb5.chunk.js": "/CRFlowchart/static/js/453.b88efcb5.chunk.js",
     "static/media/BlackPanthers.webp": "/CRFlowchart/static/media/BlackPanthers.2f59a9699270e769b9db.webp",
     "static/media/EmmetTill.png": "/CRFlowchart/static/media/EmmetTill.176e690657298375b7f1.png",
@@ -12,11 +12,11 @@
     "static/media/MontgomeryBusBoycott.png": "/CRFlowchart/static/media/MontgomeryBusBoycott.31eca2be87600808f69c.png",
     "index.html": "/CRFlowchart/index.html",
     "main.a5efa670.css.map": "/CRFlowchart/static/css/main.a5efa670.css.map",
-    "main.a1ae6d43.js.map": "/CRFlowchart/static/js/main.a1ae6d43.js.map",
+    "main.3f82a163.js.map": "/CRFlowchart/static/js/main.3f82a163.js.map",
     "453.b88efcb5.chunk.js.map": "/CRFlowchart/static/js/453.b88efcb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5efa670.css",
-    "static/js/main.a1ae6d43.js"
+    "static/js/main.3f82a163.js"
   ]
 }

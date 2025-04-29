@@ -82,7 +82,7 @@ export function ConnectArrow({svgX,svgY,x1,y1,x2,y2,text,boxWidth} : connectArro
             y2={y2}
             stroke= {hover ? "#e86471" : "red"}
             strokeDasharray={"5, 5"}
-            strokeWidth="2"
+            strokeWidth="4"
             markerEnd="url(#arrowhead)"
             />
         

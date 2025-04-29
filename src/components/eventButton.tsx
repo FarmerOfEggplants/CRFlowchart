@@ -33,7 +33,7 @@ export default function EventButton({name, paragraph, year, definition, bwidth, 
     return (
         <div>
             <button
-                style={{width: bwidth, padding: "5px", position: 'absolute', alignItems: "inherit", justifyContent: "inherit", border: '3px solid black', backgroundColor: hover ? color2 : colorHover, left: positionX,  top: positionY, fontSize: 25, }}
+                style={{width: bwidth, padding: "5px", position: 'absolute', alignItems: "inherit", justifyContent: "inherit", border: '3px solid black', backgroundColor: hover ? color2 : colorHover, left: positionX,  top: positionY, fontSize: 25, zIndex: 4}}
                 onClick={handleClick}
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setHover(false)}
@@ -46,7 +46,7 @@ export default function EventButton({name, paragraph, year, definition, bwidth, 
             </button>
             {showing && (
                 <div onClick={handleClick} style={{width: boxwidth, padding: "10px", position: "absolute", alignItems: "inherit", justifyContent: "inherit", background : color, border: '3px solid black', left: positionX, top: positionY, zIndex: 5 }}>
-                    <img src={imagesrc} alt={imagealt} style={{width: imageSizeX, height:  imageSizeY,}}/>
+                    <img src={imagesrc} alt={imagealt} style={{width: imageSizeX, height:  imageSizeY, position: "relative", flexDirection: "inherit", justifyContent: "center"}}/>
                     <h2 style={{fontSize: 10, display: "flex", flexDirection: "column", justifyContent: "flex-start"}}>
                         {definition}
                     </h2>

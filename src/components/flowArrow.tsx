@@ -11,7 +11,7 @@ type flowArrowProps = {
 const markerId = "arrowhead"; // unique ID
 export function FlowArrow({svgX,svgY,x1,y1,x2,y2} : flowArrowProps) {
     return (
-    <svg width={svgX} height={svgY} style={{position: "relative"}}>
+    <svg width={svgX} height={svgY} style={{position: "absolute"}}>
         <defs>
             <marker
                 id={markerId}

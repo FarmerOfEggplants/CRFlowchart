@@ -42,6 +42,14 @@ function App() {
        you just say the name followed by a space and a / */}
        <div className='ButtonStyle'>
         <Button />
+        <div style={{height: 100, padding: "10px", fontSize: "20", backgroundColor: "lightgoldenrodyellow", border: "3px solid black" }}>
+          Notes:
+          <br />
+          You can click on the red dashed arrows to see
+          <br />
+          how the two events are connected
+
+        </div>
         <EventButton 
          name='World War II'
          year='1945'
@@ -432,6 +440,16 @@ function App() {
             imageSizeY={250}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 800, left:400, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='320'
+            y1='450'
+            x2='472'
+            y2='450'
+            />
+          </div>
           <EventButton
             name='Civil Rights Act'
             year='1964'
@@ -448,6 +466,16 @@ function App() {
             imageSizeY={170}
             imagealt=''
             />
+            <div style={{position: "absolute", top: 1000, left:400, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='575'
+            y1='290'
+            x2='300'
+            y2='478'
+            />
+          </div>
             <EventButton
             name='Selma Marches & Bloody Sunday'
             year='1965'
@@ -464,6 +492,16 @@ function App() {
             imageSizeY={150}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 1100, left:400, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='320'
+            y1='450'
+            x2='472'
+            y2='490'
+            />
+          </div>
             <EventButton
             name='Voting Rights Act'
             year='1965'
@@ -480,6 +518,16 @@ function App() {
             imageSizeY={200}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 1300, left:400, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='580'
+            y1='300'
+            x2='692'
+            y2='475'
+            />
+          </div>
             <EventButton
             name='Malcolm X'
             year='1965'
@@ -496,6 +544,16 @@ function App() {
             imageSizeY={225}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 1300, left:300, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='792'
+            y1='520'
+            x2='110'
+            y2='550'
+            />
+          </div>
             <EventButton
             name='LBJ & Legistaltive Actions'
             year='1964-1965'
@@ -512,6 +570,16 @@ function App() {
             imageSizeY={220}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 1400, left:300, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='20'
+            y1='515'
+            x2='470'
+            y2='715'
+            />
+          </div>
             <EventButton
             name='Thurgood Marshall'
             year='1967'
@@ -528,6 +596,16 @@ function App() {
             imageSizeY={170}
             imagealt=''
             />
+          <div style={{position: "absolute", top: 1700, left:300, padding:"10px"}}>
+            <FlowArrow 
+            svgX='1000'
+            svgY='1000'
+            x1='560'
+            y1='470'
+            x2='470'
+            y2='672'
+            />
+          </div>
     </body>
   );
 }
